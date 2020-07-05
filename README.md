@@ -114,5 +114,12 @@ You can use this [list of emoji shortcodes](https://gist.github.com/rxaviers/736
 ## Strikethrough
 ~~The world is flat.~~
 
+## Contributors Image
+[contributors-img](https://contributors-img.web.app/preview?repo=wxphp%2Fwxphp) To Keep in sync your contributors list, ENTER repository name and GENERATE an dynamic image URL for displaying it!
+
+<a href="https://github.com/nextcloud/docker/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=nextcloud/docker" />
+</a>
+
 ## Horizontal Rule
 ---
