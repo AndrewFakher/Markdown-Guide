@@ -64,13 +64,28 @@
 ## Italic Text
 *italicized text*
 
+## Strikethrough
+~~The world is flat.~~
+
+## Definitions
+Markdown
+: Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original 
+tool by the same name only supports HTML.
+
+## Footnote
+<sup>1</sup>This is the first footnote.
+
+## New line
+You can make a new line by ending a line with two spaces  
+you don't have to use `<br>`.
+
 ## Blockquote
 > blockquote
 
 ## Keyboard Actions
 <kbd>CMD</kbd> + <kbd>R</kbd>
 
-## Code with specific language
+## Block of Code
 ```swift 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
          return true
@@ -113,13 +128,10 @@
 | Paragraph | Text |
 
 ### Table With Alignment
-| Syntax      | Description | Test Text     |
+| Left        | Center      | Right         |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
-
-## Footnote
-<sup>1</sup>This is the first footnote.
 
 ## Emoji
 Gone camping! :tent: Be back soon.
@@ -127,17 +139,6 @@ Gone camping! :tent: Be back soon.
 That is so funny! :joy:
 
 You can use this [list of emoji shortcodes](https://gist.github.com/rxaviers/7360908)
-
-## Strikethrough
-~~The world is flat.~~
-
-## New line
-You can make a new line by ending a line with two spaces  
-you don't have to use `<br>`.
-
-## Definitions
-Markdown
-: Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original tool by the same name only supports HTML.
 
 ## Captions
 <div align= "center">
