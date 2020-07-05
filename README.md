@@ -1,5 +1,8 @@
 ![Markdown Guide](https://github.com/AndrewFakher/Markdown-Guide/blob/master/markdown-guide-og.jpg)
 <h1 align="center">Markdown Guide</h1>
+<p align="center">
+	This Markdown cheat sheet provides a quick overview of most the Markdown syntax elements.
+</p>
 
 ## Badges
 [![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-deflist/master.svg?style=flat)](https://shields.io)
