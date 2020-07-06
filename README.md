@@ -5,7 +5,7 @@
 </p>
 
 ## 1. Badges
-[Shields.io](https://shields.io) contains quality metadata badges for open source projects.
+[Shields.io](https://shields.io) Contains quality metadata badges for open source projects.
 
 ```markdown
 [![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-deflist/master.svg?style=flat)](https://shields.io)  
@@ -200,6 +200,15 @@ you don't have to use `<br>`.
 <img alt="simple-icons" width="80" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
 ```
 <img alt="simple-icons" width="80" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
+
+### Octicons
+[Octicons](https://github.com/primer/octicons) Are a set of SVG icons built by GitHub for GitHub.
+
+```html
+<img alt="simple-icons" width="80" src="https://github.com/primer/octicons/blob/master/icons/git-merge-16.svg" />
+```
+<img alt="simple-icons" width="80" src="https://github.com/primer/octicons/blob/master/icons/git-merge-16.svg" />
+
 
 ## 20. Table
 ```markdwon
