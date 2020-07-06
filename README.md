@@ -15,15 +15,31 @@
 [![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-deflist/master.svg?style=flat)](https://shields.io)
 
 ## Check List
+```markdown
+- [ ] item 1
+- [x] item 2
+```
 - [ ] item 1
 - [x] item 2
 
 ## Ordered List
+```markdown
+1. First item
+2. Second item
+3. Third item
+```
 1. First item
 2. Second item
 3. Third item
 
 ## Sub Ordered List
+```markdown
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+```
 1. First item
 2. Second item
 3. Third item
@@ -31,11 +47,23 @@
     2. Indented item
 
 ## Unordered List
+```markdown
+- First item
+- Second item
+- Third item
+```
 - First item
 - Second item
 - Third item
 
 ## Sub Unordered List
+```markdown
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+```
 - First item
 - Second item
 - Third item
@@ -43,11 +71,24 @@
     - Indented item
   
 ## Nested lists
+```markdown
+- First item
+  - sub-item
+    - sub-sub-item
+```
 - First item
   - sub-item
     - sub-sub-item
     
 ## Expandable Menu
+```html
+  <details>
+	<summary><code>Swift 5.2</code> </summary>
+
+	Released July 15, 2019	<br>
+	<a href='https://github.com/AndrewFakher/GitDemo/blob/master/github.png'><code>Screenshot</code></a> 
+  </details>
+```
 - [Swift](https://swift.org/about/): Check Swift Documentation 
   <details>
 	<summary><code>Swift 5.2</code> </summary>
@@ -63,21 +104,30 @@
 	<a href='https://github.com/AndrewFakher/GitDemo/blob/master/github.png'><code>Screenshot</code></a> 
   </details>
 
-## Bold Text
+## Text Format
+```markdown
 **bold text**
-
-## Italic Text
 *italicized text*
-
-## Strikethrough
+~~The world is flat.~~
+```
+**bold text**  
+*italicized text*  
 ~~The world is flat.~~
 
 ## Definitions
+```markdown
+Markdown
+: Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original 
+tool by the same name only supports HTML.
+```
 Markdown
 : Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats, but the original 
 tool by the same name only supports HTML.
 
 ## Footnote
+```html
+<sup>1</sup>This is the first footnote.
+```
 <sup>1</sup>This is the first footnote.
 
 ## New line
@@ -85,24 +135,36 @@ You can make a new line by ending a line with two spaces
 you don't have to use `<br>`.
 
 ## Blockquote
+```markdown
+> blockquote
+```
 > blockquote
 
 ### Nested blockquote
+```markdown
+> blockquote
+>> nested blockquote
+```
 > blockquote
 >> nested blockquote
 
 ## Keyboard Actions
+```html
+<kbd>CMD</kbd> + <kbd>R</kbd>
+```
 <kbd>CMD</kbd> + <kbd>R</kbd>
 
-## Block of Code
-```swift 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-         return true
-    }
-```
-
 ## Fenced Code Block
+```markdown
+    ```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+    ```
 ```
+```json
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -110,19 +172,35 @@ you don't have to use `<br>`.
 }
 ```
 
-## Block
+
+### Block
+```markdown
+`Desktop/Projects/ProjectFolder/ProjectFile`
+```
 `Desktop/Projects/ProjectFolder/ProjectFile`
 
 ## Link
+```markdown
+[Github](https://www.github.com)
+```
 [Github](https://www.github.com)
 
 ## Back to top
+```markdown
+[↑Top of the page↑](#readme) 
+```
 [↑Top of the page↑](#readme) 
 
 ## Image
+```markdown
+![alt text](https://github.com/AndrewFakher/Markdown-Guide/blob/master/github.png)
+```
 ![alt text](https://github.com/AndrewFakher/Markdown-Guide/blob/master/github.png)
 
 ### Simple Icons
+```html
+<img alt="simple-icons" width="80" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
+```
  - Supports [SVG Icons](https://github.com/simple-icons/simple-icons/tree/develop/icons) icons for popular brands only.
  - Black color only.
  - HTML syntax.
@@ -131,35 +209,61 @@ you don't have to use `<br>`.
 <img alt="simple-icons" width="80" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
 
 ## Table
+```markdwon
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
 
 ### Table With Alignment
+```markdown
+| Left        | Center      | Right         |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
 | Left        | Center      | Right         |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
 
 ## Emoji
+You can use this [list of emoji shortcodes](https://gist.github.com/rxaviers/7360908)
+```markdown
 Gone camping! :tent: Be back soon.
-
+That is so funny! :joy:
+```
+Gone camping! :tent: Be back soon.  
 That is so funny! :joy:
 
-You can use this [list of emoji shortcodes](https://gist.github.com/rxaviers/7360908)
-
 ## Captions
+```html
+<div align= "center">
+    <sub>© 2020, licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</sub>
+</div>
+```
 <div align= "center">
     <sub>© 2020, licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</sub>
 </div>
 
 ## Contributors Image
 [contributors-img](https://contributors-img.web.app/preview?repo=wxphp%2Fwxphp) To Keep in sync your contributors list, ENTER repository name and GENERATE an dynamic image URL for displaying it!
-
+```html
+<a href="https://github.com/nextcloud/docker/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=nextcloud/docker" />
+</a>
+```
 <a href="https://github.com/nextcloud/docker/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=nextcloud/docker" />
 </a>
 
 ## Horizontal Rule
+```markdown
+---
+```
 ---
