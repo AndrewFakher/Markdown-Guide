@@ -94,14 +94,14 @@
 	<summary><code>Swift 5.2</code> </summary>
 
 	Released July 15, 2019	<br>
-	<a href='https://github.com/AndrewFakher/GitDemo/blob/master/github.png'><code>Screenshot</code></a> 
+	<a href='https://github.com/AndrewFakher/Markdown-Guide/blob/master/github.png'><code>Screenshot</code></a> 
   </details>
   
     <details>
 	<summary><code>Swift 5</code> </summary>
    
 	Released March 25, 2019<br>
-	<a href='https://github.com/AndrewFakher/GitDemo/blob/master/github.png'><code>Screenshot</code></a> 
+	<a href='https://github.com/AndrewFakher/Markdown-Guide/blob/master/github.png'><code>Screenshot</code></a> 
   </details>
 
 ## 9. Text Format
