@@ -80,7 +80,7 @@
   - sub-item
     - sub-sub-item
     
-## Expandable Menu
+## Dropdown Menu
 ```html
   <details>
 	<summary><code>Swift 5.2</code> </summary>
@@ -171,12 +171,6 @@ you don't have to use `<br>`.
   "age": 25
 }
 ```
-
-### Block
-```markdown
-`Desktop/Projects/ProjectFolder/ProjectFile`
-```
-`Desktop/Projects/ProjectFolder/ProjectFile`
 
 ## Link
 ```markdown
