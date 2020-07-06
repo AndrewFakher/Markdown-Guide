@@ -172,7 +172,6 @@ you don't have to use `<br>`.
 }
 ```
 
-
 ### Block
 ```markdown
 `Desktop/Projects/ProjectFolder/ProjectFile`
@@ -198,14 +197,14 @@ you don't have to use `<br>`.
 ![alt text](https://github.com/AndrewFakher/Markdown-Guide/blob/master/github.png)
 
 ### Simple Icons
-```html
-<img alt="simple-icons" width="80" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
-```
  - Supports [SVG Icons](https://github.com/simple-icons/simple-icons/tree/develop/icons) icons for popular brands only.
  - Black color only.
  - HTML syntax.
  - Higher quality. 
  
+ ```html
+<img alt="simple-icons" width="80" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
+```
 <img alt="simple-icons" width="80" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
 
 ## Table
