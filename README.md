@@ -5,8 +5,13 @@
 </p>
 
 ## Badges
+[Shields.io](https://shields.io) contains quality metadata badges for open source projects.
+
+```markdown
+[![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-deflist/master.svg?style=flat)](https://shields.io)  
+[![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-deflist/master.svg?style=flat)](https://shields.io)
+```
 [![Build Status](https://img.shields.io/travis/markdown-it/markdown-it-deflist/master.svg?style=flat)](https://shields.io)
-[![NPM version](https://img.shields.io/npm/v/markdown-it-deflist.svg?style=flat)](https://shields.io)
 [![Coverage Status](https://img.shields.io/coveralls/markdown-it/markdown-it-deflist/master.svg?style=flat)](https://shields.io)
 
 ## Check List
@@ -81,6 +86,10 @@ you don't have to use `<br>`.
 
 ## Blockquote
 > blockquote
+
+### Nested blockquote
+> blockquote
+>> nested blockquote
 
 ## Keyboard Actions
 <kbd>CMD</kbd> + <kbd>R</kbd>
